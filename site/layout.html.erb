@@ -8,6 +8,7 @@
 <body>
 <div id="top_area">
     <div id="logo_area">
+        <img src="img/logo.jpg">
 
     </div>
 </div>
@@ -21,16 +22,16 @@
                 <h3>School work</h3>
                 <dl id="school_work_list">
                     <li>
-                        <a href="index2.html">Assignments</a>
+                        <a href="assignments.html">Assignments</a>
                     </li>
                     <li>
-                        <a href="www.facebook.com">Upcoming tests</a>
+                        <a href="upcoming_tests.html">Upcoming tests</a>
                     </li>
                     <li>
-                        <a href="www.facebook.com">Homework</a>
+                        <a href="homework.html">Homework</a>
                     </li>
                     <li>
-                        <a href="www.facebook.com">Current grades</a>
+                        <a href="current_grade.html">Current grades</a>
                     </li>
                 </dl>
             </li>
@@ -38,10 +39,10 @@
                 <h3>Scheme</h3>
                 <dl id="scheme_list">
                     <li>
-                        <a href="www.facebook.com">Your Scheme</a>
+                        <a href="your_scheme.html">Your Scheme</a>
                     </li>
                     <li>
-                        <a href="www.facebook.com">Teachers Scheme</a>
+                        <a href="teachers_cheme.html">Teachers Scheme</a>
                     </li>
                 </dl>
             </li>
@@ -49,10 +50,10 @@
                 <h3>Social area</h3>
                 <dl id="social_list">
             <li>
-                <a href="www.facebook.com">Gallery</a>
+                <a href="gallery.html">Gallery</a>
             </li>
             <li>
-                <a href="www.facebook.com">Your Page</a>
+                <a href="your_page.html">Your Page</a>
             </li>
         </dl>
             </li>
@@ -61,7 +62,7 @@
             <div id="login">
                 <input type="text" class="inputtext" name="email" id="email" tabindex="1" value="Email">
                 <input type="text" class="inputtext" name="password" id="password" tabindex="1" value="Password">
-                <button id="login_button">Login
+                <button id="login_button">Login</button>
 
             </div>
 
@@ -69,7 +70,7 @@
 
     </div>
     <div id="content_area">
-
+        <%= yield %>
     </div>
 </div>
 
