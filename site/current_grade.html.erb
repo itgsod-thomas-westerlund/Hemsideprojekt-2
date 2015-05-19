@@ -3,8 +3,14 @@
   <h5>Insert useless topic here: <span class="no_completerino">F</span></h5>
   <h5>Insert useless topic here: <span class="completerino">E</span></h5>
   <h5>Insert useless topic here: <span class="super_completerino">A!</span></h5>
-  <h5>Insert useless topic here: <span class="completerino">420</span></h5>
+  <h5>Insert useless topic here: <span class="completerino" id="demo"></span></h5>
   <h5>Insert useless topic here: <span class="completerino">Kebab</span></h5>
   <h5>Insert useless topic here: <span class="no_completerino">Grill korv</span></h5>
   <h5>Insert useless topic here: <span class="no_completerino">F</span></h5>
   </div>
+<script>
+  function myFunction(a, b) {
+    return a + b;
+  }
+  document.getElementById("demo").innerHTML = myFunction(Math.random(15), Math.random(15));
+</script>
