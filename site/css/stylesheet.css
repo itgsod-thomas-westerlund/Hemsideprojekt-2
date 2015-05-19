@@ -68,16 +68,21 @@ body,html {
     position: relative; top: 20%;
 
 
+
+}
+
+#add_photo {
+    width: 200px;
 }
 
 #content_area {
     position: absolute;
     top: 200px;
     left: 180px;
-    width: 800px;
+    width: 900px;
     min-width: 800px;
     height: 500px;
-    background-color: teal;
+    background-color: hotpink;
     overflow-y: scroll;
 }
 #login_button {
@@ -88,15 +93,15 @@ body,html {
     width: 80px;
 }
 #welcome_text {
-    background-color: deepskyblue;
-    float: left;
+    background-color: greenyellow;
     margin-left: 5%;
     border-radius: 10px;
+    float: left;
 }
 #post_1 {
     float: left;
     position: relative; top: 20px;
-    background-color: aliceblue;
+    background-color: white;
     border-radius: 20px;
     margin-left: 5%;
     width: 600px;
@@ -105,11 +110,18 @@ body,html {
 #post_1_title {
     margin-left: 34%;
 }
-.assignment {
-    margin-top: 20px;
-    border-radius: 20px;
+#personal_info_tab {
+    width: 200px;
+    height: 100%;
     background-color: white;
     float: left;
+}
+
+.assignment {
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: white;
+
     position: relative; top: 20px;
     margin-left: 5%;
     width: 500px;
@@ -126,4 +138,16 @@ body,html {
 }
 .assignment .super_completerino {
     color: cornflowerblue;
+}
+
+#info_stuff
+{
+    margin-left: 10px;
+}
+#status_flow {
+    float: left;
+    width: 690px;
+    height: 100%;
+
+    margin-left: 10px;
 }
